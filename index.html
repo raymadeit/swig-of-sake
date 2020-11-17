@@ -25,10 +25,10 @@ title: Swig of Sake
         <div class="col name">
             <p>{{editor.title}} </p>
             <p>{{editor.chapter}} </p>
-            <p class="github-info" title="Scanlation status"><i class="fa fa-star"></i>{{ editor.scanlation_status }}</p>
-            <p class="github-info" title="Break next week status"><i class="fa fa-star"></i>{{ editor.break_next_week }}</p>
-            <p class="github-info" title="Hype level"><i class="fa fa-check-circle-o"></i>{{ editor.hype_level }}</p>
-            <p class="github-info" title="Chapter Title"><i class="fa fa-check-circle-o"></i>{{ editor.chapter_title }}</p>
+            <p class="github-info"><i class="fa fa-copy"></i> {{ editor.scanlation_status }}</p>
+            <p class="github-info"><i class="fa fa-forward"></i> {{ editor.break_next_week }}</p>
+            <p class="github-info"><i class="fa fa-fire"></i> {{ editor.hype_level }}</p>
+            <p class="github-info"><i class="fa fa-text"></i> {{ editor.chapter_title }}</p>
         </div>
         <div class="col description">
             <p>{{editor.description}}</p>
@@ -40,7 +40,7 @@ title: Swig of Sake
                 {% endif %}
 
                 {% if editor.narutoforums %}
-                <a class="link" href="{{editor.narutoforums}}"><i class="fa fa-external-link"></i> NarutoForums</a>
+                <a class="link" href="{{editor.narutoforums}}"><i class="fa fa-external-link"></i> One Piece Telegrams</a>
                 {% endif %}
 
                 {% if editor.discord %}
