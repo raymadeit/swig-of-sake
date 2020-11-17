@@ -1,47 +1,15 @@
 -
     title: One Piece
-    website: 'http://substance.io'
-    github: 'https://github.com/substance/substance'
-    getStarted: 'http://substance.io/docs/beta5/your-first-editor.html'
-    description: "Substance is one of the most advanced and flexible editors, yet it's easy to understand the main concepts.\nThe component model is based on a virtual DOM and it's very similar to React.\n"
+    chapter: Chapter 996
+    reddit: 'http://reddit.com/r/OnePiece'
+    narutoforums: 'https://narutoforums.com'
+    discord: 'https://discord.gg/onepiece'
+    description: "One Piece is a best-selling manga series written by Eiichiro Oda.\nIt follows the journey of Monkey D. Luffy as he seeks to become king of the pirates.\n"
     level: 4
     format: XML/HTML
     license: MIT
     community: null
-    open_issues: 39
-    watchers: 2720
-    updated_at: '2020-11-14T14:22:02Z'
-    stargazers_count: 2720
-    github_description: 'A JavaScript library for web-based content editing.'
--
-    title: Quill
-    website: 'https://quilljs.com/'
-    github: 'https://github.com/quilljs/quill'
-    getStarted: 'https://quilljs.com/docs/quickstart/'
-    logo: assets/quill-logo.svg
-    description: "Quill is a modern rich text editor built for compatibility and extensibility. It was created by Jason Chen and Byron Milligan and open sourced by Salesforce.com.\n"
-    level: 4
-    format: XML/HTML
-    license: 'BSD 3-clause'
-    community: null
-    open_issues: 974
-    watchers: 28167
-    updated_at: '2020-11-17T18:23:24Z'
-    stargazers_count: 28167
-    github_description: 'Quill is a modern WYSIWYG editor built for compatibility and extensibility.'
--
-    title: CKEditor5
-    website: 'https://ckeditor.com/ckeditor-5-framework/'
-    github: 'https://github.com/ckeditor/ckeditor5'
-    getStarted: 'https://docs.ckeditor.com/ckeditor5/latest/examples/index.html'
-    logo: assets/quill-logo.svg
-    description: "CKEditor 5 is a modular, multi-package, multi-repository project. It consists of a several packages which create the editing framework, based on which the feature packages are implemented.\n"
-    level: 4
-    format: XML/HTML
-    license: GPL/LGPL/MPL
-    community: null
-    open_issues: 1570
-    watchers: 4024
-    updated_at: '2020-11-17T15:51:20Z'
-    stargazers_count: 4024
-    github_description: 'Powerful rich text editor framework with a modular architecture, modern integrations and features like collaborative editing.'
+    scanlation_status: Raws available
+    break_next_week: No break next week
+    hype_level: Unknown hype level
+    chapter_title: Unknown chapter title

@@ -21,34 +21,30 @@ title: Swig of Sake
 <div class="editor-list">
     {% assign editors = (site.data.editors | sort: 'watchers') | reverse %}
     {% for editor in editors %}
-    <div class="manga-item">
+    <div class="editor-item">
         <div class="col name">
-            <a href="">{{editor.title}} </a>
-            {% if editor.stargazers_count %}
-
-            <p class="github-info" title="Github stars"><i class="fa fa-star"></i> {{ editor.stargazers_count }}</p>
-            <p class="github-info" title="Open issues"><i class="fa fa-check-circle-o"></i> {{ editor.open_issues }}</p>
-            <p class="github-info" title="Repo last updated {{editor.updated_at}}"><i class="fa fa-clock-o"></i> {{ editor.updated_at | date: '%B %d, %Y' }}</p>
-            {% endif %}
+            <p>{{editor.title}} </p>
+            <p>{{editor.chapter}} </p>
+            <p class="github-info" title="Scanlation status"><i class="fa fa-star"></i>{{ editor.scanlation_status }}</p>
+            <p class="github-info" title="Break next week status"><i class="fa fa-star"></i>{{ editor.break_next_week }}</p>
+            <p class="github-info" title="Hype level"><i class="fa fa-check-circle-o"></i>{{ editor.hype_level }}</p>
+            <p class="github-info" title="Chapter Title"><i class="fa fa-check-circle-o"></i>{{ editor.chapter_title }}</p>
         </div>
         <div class="col description">
             <p>{{editor.description}}</p>
 
-            {% if editor.github_description %}
-                <blockquote title="Github description">{{editor.github_description}}</blockquote>
-            {% endif %}
             <div class="links">
 
-                {% if editor.github %}
-                <a class="link" href="{{editor.github}}"><i class="fa fa-github"></i> Github</a>
+                {% if editor.reddit %}
+                <a class="link" href="{{editor.reddit}}"><i class="fa fa-external-link"></i> Reddit</a>
                 {% endif %}
 
-                {% if editor.website %}
-                <a class="link" href="{{editor.website}}"><i class="fa fa-external-link"></i> Website</a>
+                {% if editor.narutoforums %}
+                <a class="link" href="{{editor.narutoforums}}"><i class="fa fa-external-link"></i> NarutoForums</a>
                 {% endif %}
 
-                {% if editor.getStarted %}
-                <a class="link" href="{{editor.getStarted}}"><i class="fa fa-play-circle"></i> Get started</a>
+                {% if editor.discord %}
+                <a class="link" href="{{editor.discord}}"><i class="fa fa-external-link"></i> Discord</a>
                 {% endif %}
 
             </div>
