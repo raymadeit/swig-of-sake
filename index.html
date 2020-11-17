@@ -18,12 +18,12 @@ title: Swig of Sake
 </p>
 
 
-<div class="manga-list">
-    {% assign mangas = (site.data.mangas | sort: 'watchers') | reverse %}
-    {% for manga in mangas %}
-    <div class="mangar-item">
+<div class="editor-list">
+    {% assign editors = (site.data.editors | sort: 'watchers') | reverse %}
+    {% for editor in editors %}
+    <div class="manga-item">
         <div class="col name">
-            <a href="https://nexttexteditor.com/{{ editor.page }}">{{editor.title}} </a>
+            <a href="">{{editor.title}} </a>
             {% if editor.stargazers_count %}
 
             <p class="github-info" title="Github stars"><i class="fa fa-star"></i> {{ editor.stargazers_count }}</p>
