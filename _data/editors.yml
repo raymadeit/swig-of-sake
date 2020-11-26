@@ -1,4 +1,4 @@
-- break_next_week: No break next week
+- break_next_week: break next week
   chapter: Chapter 997
   chapter_title: Unknown chapter title
   description: 'One Piece is a bestselling manga series written by Eiichiro Oda.
@@ -8,7 +8,7 @@
     '
   discord: https://discord.gg/onepiece
   format: XML/HTML
-  hype_level: Unknown hype level
+  hype_level: '-1'
   level: 4
   narutoforums: https://www.narutoforums.org/forums/OPTelegrams/
   reddit: http://reddit.com/r/OnePiece
