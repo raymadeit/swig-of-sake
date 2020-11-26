@@ -1,15 +1,21 @@
--
-    title: One Piece
-    chapter: Chapter 996
-    reddit: 'http://reddit.com/r/OnePiece'
-    narutoforums: 'https://www.narutoforums.org/forums/OPTelegrams/'
-    discord: 'https://discord.gg/onepiece'
-    description: "One Piece is a bestselling manga series written by Eiichiro Oda.\nIt follows the journey of Monkey D. Luffy as he seeks to become king of the pirates.\n"
-    level: 4
-    format: XML/HTML
-    license: MIT
-    community: null
-    scanlation_status: Raws available
-    break_next_week: No break next week
-    hype_level: Unknown hype level
-    chapter_title: Unknown chapter title
+- break_next_week: No break next week
+  break_status: true
+  chapter: Chapter 997
+  chapter_title: Unknown chapter title
+  community: null
+  description: 'One Piece is a bestselling manga series written by Eiichiro Oda.
+
+    It follows the journey of Monkey D. Luffy as he seeks to become king of the pirates.
+
+    '
+  discord: https://discord.gg/onepiece
+  format: XML/HTML
+  hype_level: Unknown hype level
+  hype_status: '-1'
+  level: 4
+  license: MIT
+  narutoforums: https://www.narutoforums.org/forums/OPTelegrams/
+  reddit: http://reddit.com/r/OnePiece
+  scanlation_status: RAWS
+  title: One Piece
+  title_status: Unknown
